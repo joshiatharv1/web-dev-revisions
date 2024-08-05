@@ -1,0 +1,21 @@
+p{
+    background-color: red;
+}
+a{
+    background-color: yellow;
+}
+div{
+    background-color: aquamarine;
+}
+span{
+    background-color: greenyellow;
+}
+.red{
+    color:brown
+}
+.bg-yellow{
+    background-color: yellow;
+}
+#divfirst{
+    font-size: 200px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- meta tags for SEO purposes -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Forms-HTML</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username Here" autofocus>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="Yes">
+            <label for="subscribe">Subscribe to Newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Write to us</label>
+            <textarea name="comment" id="comment" rows="5" cols="50" required></textarea>
+        </div>
+        <div>
+            <label for="fruits">Select a fruit</label>
+            <select name="fruits" id="fruits">
+                <option value="Orange">Orange</option>
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+        </select>
+        </div>
+        <div>
+            <label for="password" id="password">Enter Password by rules</label>
+            <input type="password" name="password" id="password" pattern="[0-9]">
+        </div>
+        <div>
+            <label for="submit" id="submit"></label>
+            <button type="button" id="submit">Click here</button>
+        </div>
+    </form>
+    <h1>Inline and Block Elements</h1>
+    <p>I am a Paragraph tag</p>
+    <a href="https://www.google.com">Google anchor tag is inline</a>
+    <div>Div Tag</div>
+    <span>First Span Tag</span>
+    <span>Another span tag afte the first</span>
+
+    <h1>Classes and Id</h1>
+    <div id="divfirst" class="red bg-yellow">First</div>
+    <div id="div2">Second div</div>
+    <span class="red">First Span</span>
+
+    <h1>Audio and Video</h1>
+    <video src="" controls></video> 
+    <!-- autoplay, muted , loop, poster, width and hieght -->
+
+    <audio src="" controls></audio>
+
+    <!-- Preload attribute none, metadata , auto -->
+     <img src="" alt="SVG Image here">
+     <iframe iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=XHs4CcrXW1qq6UZt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0"></iframe>
+</body>
+</html>

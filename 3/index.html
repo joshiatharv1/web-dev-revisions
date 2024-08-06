@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element Selector */
+        div{
+            /* background-color: red; */
+        }
+        .red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+        /* Child Selectors only direct */
+        div>p{
+            color: blue;
+        }
+        /* Descendant Selectors */
+        div p{
+            font-size: 50px;
+        }
+        /* Psedo Selector */
+        a:visited{
+            color: yellow;
+        }
+        a:active{
+            background-color: red;
+        }
+        pre :first-child{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS INRO</h1>
+
+    <div class="red">
+        This is the first red background color 
+        <p>I am a parapgraph inside abive div </p>
+    </div>
+    <div class="red">
+        This is the second red background color 
+        <article>
+            <p>I am a parapgraph inside abive article </p>
+        </article>
+    </div>
+    
+    <div id="green">
+        this is the second green background 
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+
+    <pre>
+        <p>I am first paragraph under main</p>
+        <p>I am second paragraph under main</p>
+    </pre>
+</body>
+</html>

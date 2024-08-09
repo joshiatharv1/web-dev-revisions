@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: red;
+    }
+    @media only screen and (orientation: landscape){
+        body{
+            border:10px solid blue;
+        }
+        .boxes{
+            flex-direction: column;
+        }
+    }
+    @media only screen and (max-width:455px){
+        body{
+            background-color: blue;
+        }
+        .boxes{
+            flex-direction: column;
+        }
+    }
+    .box1{
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        padding: 50px;
+        margin: 20px;
+    }
+    .boxes{
+        display: flex;
+    }
+</style>
+<body>
+    <div>
+        I am a red guy
+    </div>
+    <div class="boxes">
+    <div class="box1">1</div>
+    <div class="box1">2</div>
+    <div class="box1">3</div>
+    </div>
+</body>
+</html>
